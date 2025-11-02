@@ -1,0 +1,24 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb_convert*
+*.nbconvert.ipynb
+
+# Virtual envs
+.env
+.venv
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data that should not be versioned
+data/processed/
+reports/figures/*.png
+reports/figures/*.svg
