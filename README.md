@@ -17,20 +17,18 @@
 │   │   ├── winequality-red.csv
 │   │   ├── winequality-white.csv
 │   │   └── winequality.names
-│   └── processed/              # (gitignored)
+│   └── processed/              
 ├── notebooks
-│   ├── zadanie_Sveckova.ipynb            # originál
-│   └── zadanie_Sveckova_clean.ipynb      # bez výstupov (na GitHub odporúčané)
+│   ├── zadanie_Sveckova.ipynb            
+│   └── zadanie_Sveckova_clean.ipynb      
 ├── reports
-│   └── figures/                 # exportované grafy (gitignored *.png/*.svg)
-├── src/                         # (voliteľné) pomocné skripty
+│   └── figures/                 
+├── src/                         
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
 └── README.md
 ```
-
-## Rýchly štart
 
 ### 1) Klonovanie a prostredie
 ```bash
@@ -51,7 +49,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-Otvor si `notebooks/zadanie_Sveckova.ipynb` (plná verzia) alebo `notebooks/zadanie_Sveckova_clean.ipynb` (bez výstupov).
+Otvor `notebooks/zadanie_Sveckova.ipynb` (plná verzia) alebo `notebooks/zadanie_Sveckova_clean.ipynb` (bez výstupov).
 
 ### 3) Export grafov
 V notebooku ulož grafy do `reports/figures/` (adresár je pripravený).
